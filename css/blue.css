@@ -1846,6 +1846,21 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/*mapa */
+.mapWrapper {
+    position: relative;
+   
+    padding-bottom: 66.6666667%; 
+    height: 0;
+}
+.mapWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .fh5co-animated {
   -webkit-animation-duration: .3s;
   animation-duration: .3s;
